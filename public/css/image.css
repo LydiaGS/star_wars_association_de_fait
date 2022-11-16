@@ -1,0 +1,51 @@
+.ranger1{
+display: flex;
+justify-content: center;
+}
+.img1{
+height: 150px;
+width: 150px;
+gap: 3em;
+}
+.img2{
+height: 150px;
+width: 150px;
+gap: 3em;
+}
+.img3{
+height:150px;
+width: 150px;
+gap: 3em;
+}
+.img4{
+    height: 150px;
+    width: 150px;
+    gap: 3em;
+}
+*{
+    background-color: rgba(247,247,247,255);
+}
+.nav-link{
+    display: flex;
+    text-decoration:  none;
+    justify-content: center;
+    display: flex;
+    color: black;
+    background-color: rgba(247,247,247,255);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-size: 25px;
+}
+.image-logo{
+    height: 30px;
+    width: 60px;
+}
+.navbar{
+    background-color: rgba(247,247,247,255);
+}
