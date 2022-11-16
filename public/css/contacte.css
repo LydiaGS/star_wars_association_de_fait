@@ -10,6 +10,7 @@
     display: flex;
     color: white;
     background-color: rgba(247,247,247,255);
+    margin-top: 1.5em;
 }
 ul{
     list-style-type: none;
@@ -18,12 +19,12 @@ ul{
     justify-content: center;
     text-align: center;
     font-size: large;
-    font-size: 25px;
+    font-size: 35px;
     background-color: rgba(247,247,247,255);
 }
 .image-logo{
-    height: 30px;
-    width: 60px;
+    height: 150px;
+    width: 250px;
     background-color: rgba(247,247,247,255);
 }
 .navbar{

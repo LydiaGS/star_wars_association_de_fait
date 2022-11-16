@@ -15,6 +15,7 @@
     justify-content: center;
     text-align: center;
     color: white;
+    font-size: 50px;
 }
 .click{
     border-radius: 1em;
@@ -40,7 +41,7 @@
     justify-content: center;
     text-align: center;
     font-size: large;
-    font-size: 25px;
+    font-size: 40px;
     color: white;
 }
 .paragraphe{
@@ -337,6 +338,7 @@ img {
     display: flex;
     color: white;
     background-color: rgba(247,247,247,255);
+    margin-top: 1.5em;
 }
 ul{
     list-style-type: none;
@@ -344,13 +346,13 @@ ul{
     gap: 3em;
     justify-content: center;
     text-align: center;
-    font-size: large;
-    font-size: 25px;
+    font-size: 35px;
 }
 .image-logo{
-    height: 30px;
-    width: 60px;
+    height: 150px;
+    width: 250px;
 }
 .navbar{
     background-color: rgba(247,247,247,255);
 }
+
