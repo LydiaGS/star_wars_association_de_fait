@@ -53,6 +53,7 @@
 }
 .texte{
 align-items: center;
+margin: 5em;
 }
 .star {
     animation: star 10s ease-out infinite;
@@ -328,7 +329,9 @@ img {
   
   @media only screen and (max-width: 480px) {
     .starwars-demo {
-      font-size: 7px;
+      font-size: 15px;
+      background-color: transparent !important;
+      height: 50px;
     }
   }
   .nav-link{
@@ -337,7 +340,7 @@ img {
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgba(247,247,247,255);
+    background-color: black;
     margin-top: 1.5em;
 }
 ul{
@@ -354,5 +357,6 @@ ul{
 }
 .navbar{
     background-color: rgba(247,247,247,255);
+    background-color: black
 }
 

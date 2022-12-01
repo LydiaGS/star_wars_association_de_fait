@@ -1,3 +1,6 @@
+*{
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+}
 .ranger1{
 display: flex;
 justify-content: center;
@@ -22,16 +25,13 @@ gap: 3em;
     width: 150px;
     gap: 3em;
 }
-*{
-    background-color: rgba(247,247,247,255);
-}
 .nav-link{
     display: flex;
     text-decoration:  none;
     justify-content: center;
     display: flex;
-    color: black;
-    background-color: rgba(247,247,247,255);
+    color: white;
+    background-color: black;
     margin-top: 1.5em;
 }
 ul{
@@ -49,4 +49,92 @@ ul{
 }
 .navbar{
     background-color: rgba(247,247,247,255);
+}
+.imgstarwars img{
+    width: 350px;
+    height: 450px;
+}
+img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: background-color 500ms;
+    }
+.imgstarwars .starwarsimg{
+    width:850px ;
+    display: flex;
+    justify-content: center;
+}
+.imgstarwars{
+    display: flex;
+    justify-content: center;
+    gap :3em
+}
+.Juliana img {
+    width: 350px;
+    height: 450px; 
+}
+.scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  .scroll_to_top img {
+    width: 55px;
+  }
+  .copyrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 150px;
+    width: 150px;
+}
+.copyrite p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo_facebook img{
+    height: 80px;
+    width: 80px;
+    color: white !important;
+    background-color: white;
+align-items: center;
+gap:3;
+background-color: #000 !important;
+}
+.footer{
+margin: 15px;
+padding: 15px;
+background-color: #000 !important;
+}
+.copyrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 150px;
+    width: 150px;
+}
+.copyrite h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo_facebook img{
+    height: 80px;
+    width: 80px;
+    color: white !important;
+    background-color: white;
+align-items: center;
+gap:3
+}
+.footer{
+margin: 15px;
+padding: 15px;
 }
